@@ -21,11 +21,11 @@
         <div class="row  mb-3">
             <div class="col-md-5">
                 <label for="CreditCard" class="form-label">Credit Card</label>
-                <input type="tel" inputmode="numeric" class="form-control" id="CreditCard" placeholder="XXXX-XXXX-XXXX-XXXX" maxlength="16">
+                <input type="number" class="form-control" id="CreditCard" placeholder="XXXX-XXXX-XXXX-XXXX">
             </div>
             <div class="col-md-2">
                 <label for="CVC" class="form-label">CVC</label>
-                <input type="tel" id="CVC" class="form-control" placeholder="0000" maxlength="4">
+                <input type="number" id="CVC" class="form-control" placeholder="0000">
             </div>
             <div class="col-md-5">
                 <label for="Ammount" class="form-label">Amount</label>
@@ -71,7 +71,7 @@
         <div class="col">
             <label for="buttons" class="mb-2">Payment Method:</label>
             <br>
-                <div class="btn-group btn-group-toggle bg-light" id="buttons" data-toggle="buttons">
+                <div class="btn-group btn-group-toggle" id="buttons" data-toggle="buttons">
                 <label class="btn">
                     <input type="radio" name="payment_method" value="credit_card_1">
                     <i class="fa-brands fa-cc-mastercard"></i>
